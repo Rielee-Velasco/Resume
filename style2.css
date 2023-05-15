@@ -8,7 +8,7 @@ body {
     
     
             background-color: #f8f8f8;
-            border: 5px solid hsl(0, 100%, 25%);
+            border: 5px solid #800000;
             border-radius: 20px;
             padding-left: 40px;
             padding-right: 30px;
@@ -16,15 +16,22 @@ body {
     
         
 }
-
 h1 {
     font-size: 40px;
     margin-bottom: 5px;
     text-align: center;
 }
-.contact{
-    text-align: center;
-    margin-top: 0%;
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th,
+table td {
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-color : #800000
 }
 i{
     color: #800000;
